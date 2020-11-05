@@ -5,6 +5,15 @@
 #' @param file name of file in path.
 #' @param ... extra parameters passed into files.
 #'
+#' @import haven readxl vroom
+#'
+#' @seealso
+#' * [haven::read_sas()] read sas7bdat files
+#' * [haven::read_stata()] read dta files
+#' * [haven::read_spss()] read sav files
+#' * [readxl::read_excel()] read excel files
+#' * [vroom::vroom()] read most files fast
+#'
 #' @export
 #'
 #' @return returns a data frame of file.
