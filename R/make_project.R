@@ -1,4 +1,4 @@
-#' @title Make a Package
+#' @title Make a Project
 #'
 #' @description This function creates a project and relevant files within the project location.
 #'

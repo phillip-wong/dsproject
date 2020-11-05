@@ -2,7 +2,7 @@
 % Please edit documentation in R/make_project.R
 \name{make_project}
 \alias{make_project}
-\title{Make a Package}
+\title{Make a Project}
 \usage{
 make_project(
   project,
