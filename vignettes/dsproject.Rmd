@@ -1,0 +1,27 @@
+---
+title: "Introduction to dsproject"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{dsproject}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  dev = "png",
+  dev.args = list(type = "cairo-png"),
+  comment = "#>"
+)
+```
+
+# Introduction
+
+
+```{r setup, eval = FALSE}
+library(dsproject)
+import(datafile)
+use(ggplot2)
+make_project(cats, datafile)
+```
